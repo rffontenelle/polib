@@ -2,6 +2,7 @@ name: compilation
 
 on:
   - push
+  - workflow_dispatch
 
 jobs:
   build-test:
